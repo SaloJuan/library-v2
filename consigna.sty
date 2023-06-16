@@ -1,0 +1,26 @@
+
+1) cambiar textarea a form e imputs DONE
+
+2) que el evento del boton tome los datos introducidos
+3) que se llame a crear libro con los datos de los input
+4) que se pushee al array de libreria ese libro nuevo
+5) que se llame a la fn de crear tarjeta
+6) que se pushee esa tarjeta neuva en el segundo grid
+
+7) averiguar como hacer que la nueva card meustre los nuevos libros.
+    -seguro tendria que hacer algo como library[].length-1
+    -la cuestion es que habria que reemplazar la seccion final que agrerga libros asi nomas
+     por una fn que agregue siempre 
+
+
+8)Add a button on each book’s display to remove the book from the library.
+You will need to associate your DOM elements with the actual book objects in some way. One easy solution is giving them a data-attribute that corresponds to the index of the library array.
+            boton creado. Habria que modificar la fn que crea libros y o cards para que le asigne una ID o clase particular, para con eso luego ubicarlo y borrarlo
+                Quizás el Id sae el index de array o algo asi
+
+
+
+
+
+9)Add a button on each book’s display to change its read status.
+To facilitate this you will want to create the function that toggles a book’s read status on your Book prototype instance.

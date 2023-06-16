@@ -1,0 +1,12 @@
+.card-container{
+    display:grid;
+    gap:0px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.card-container div{
+    height: 400px;
+    width: 400px;
+    border: 2px red solid;
+}
